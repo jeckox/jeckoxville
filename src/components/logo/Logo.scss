@@ -6,32 +6,50 @@
     position: relative;
 }
 .logo{
-    width: 60%;
-    margin: 10% auto;
+    width: 70%;
+    margin: 10% auto 4% auto;
 }
 .logo-blue {
     font-weight: 700;
-    font-size: 6vw;
+    font-size: 7vw;
     color:#00B4E5;
-        margin: 0;
-        padding: 0;
+    margin: 0;
+    padding: 0;
 }
 .logo-name{
     color: #002D5A;
     margin: 0;
     padding: 0;
-    font-size: 3vw;
+    font-size: 4vw;
     font-weight: 400;
 }
 .logo-green{
     color: #00DA9C;
     margin: 0;
     padding: 0;
-    font-size: 3vw;
+    font-size: 4vw;
 }
 .background-triangles{
-    width: 60%;
+    width: 70%;
     position: absolute;
     top:0%;
     left: 20%;
+}
+@media (min-width: 640px){
+    .logo{
+        width: 60%;
+    }
+    .background-triangles{
+        width: 60%;
+        left: 20%;
+    }
+    .logo-blue {
+        font-size: 6vw;
+    }
+    .logo-name{
+        font-size: 3vw;
+    }
+    .logo-green{
+        font-size: 3vw;
+    }
 }

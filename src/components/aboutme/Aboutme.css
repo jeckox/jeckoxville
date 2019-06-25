@@ -1,2 +1,44 @@
-.aboutMe {
+.contact-me a {
+  color: #00DA9C;
+  font-weight: 700;
+  text-decoration: none; }
+
+.contact-me p {
+  color: #00B4E5;
   margin: 0; }
+
+.my-information img {
+  width: 50%; }
+
+.my-information p strong {
+  color: #00B4E5; }
+
+.social-network {
+  list-style: none; }
+
+.social-network li {
+  display: inline-block;
+  margin: 5px; }
+
+.social-network li:last-child {
+  margin: 0 0 0 5px; }
+
+@media (min-width: 640px) {
+  .my-information {
+    width: 60%;
+    display: inline-block; }
+  .contact-me {
+    width: 40%;
+    display: inline-block;
+    text-align: right; }
+  .contact-me a {
+    transition: 0.5s all; }
+  .contact-me a:hover {
+    color: #00B4E5; }
+  .social-network li a svg {
+    width: 24px !important;
+    height: 24px !important; }
+  .social-network li a .social-element {
+    transition: 0.5s all; }
+  .social-network li a:hover .social-element {
+    fill: #00DA9C; } }

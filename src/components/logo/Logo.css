@@ -1,0 +1,36 @@
+.logo-container {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  font-size: 3vw;
+  line-height: 1;
+  position: relative; }
+
+.logo {
+  width: 60%;
+  margin: 10% auto; }
+
+.logo-blue {
+  font-weight: 700;
+  font-size: 6vw;
+  color: #00B4E5;
+  margin: 0;
+  padding: 0; }
+
+.logo-name {
+  color: #002D5A;
+  margin: 0;
+  padding: 0;
+  font-size: 3vw;
+  font-weight: 400; }
+
+.logo-green {
+  color: #00DA9C;
+  margin: 0;
+  padding: 0;
+  font-size: 3vw; }
+
+.background-triangles {
+  width: 60%;
+  position: absolute;
+  top: 0%;
+  left: 20%; }

@@ -1,2 +1,22 @@
 .menu {
   margin: 0; }
+
+.menu-container a {
+  font-weight: 700;
+  color: #828282;
+  font-size: 12px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px;
+  padding: 3px; }
+  .menu-container a.selected {
+    color: #00DA9C; }
+
+@media (min-width: 640px) {
+  .menu-container a {
+    font-size: 18px;
+    padding: 5px;
+    margin: 20px;
+    transition: 0.5s all; }
+    .menu-container a:hover {
+      color: #00DA9C; } }

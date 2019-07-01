@@ -17,8 +17,39 @@
 .App-intro {
   font-size: large;
 }
-
+.ui-button{
+  padding: 5px 10px !important;
+  background: #00DA9C !important;
+  color: #fff !important;
+  border-radius: 20px;
+  transition: 0.5s all;
+  &:hover{
+      background: #00B4E5 !important;
+  }
+}
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+.center-container{
+  width: 90%;
+  margin: 5% auto;
+  text-align: left;
+  h2{
+    color: #002D5A;
+  }
+  p{
+    color:#828282;
+  }
+}
+
+@media (min-width: 640px){
+  .ui-button{
+    &:hover{
+        background: #00B4E5 !important;
+    }
+  }
+  .center-container{
+    width: 70%;
+  }
 }

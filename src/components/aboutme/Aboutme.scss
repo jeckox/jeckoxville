@@ -1,2 +1,69 @@
-.aboutMe{
-    margin: 0;}
+.contact-me{
+    a{
+        color:#00DA9C;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    p{
+        color:#00B4E5;
+        margin: 0;
+    }
+    img{
+        width: 100px;
+    }
+}
+.my-information{
+    img{
+        width: 50%;
+    }
+    p{
+        strong{
+            color:#00B4E5;
+        }
+    }
+}
+.social-network{
+    list-style: none;
+    li{
+        display: inline-block;
+        margin: 5px;
+        &:last-child{
+            margin: 0 0 0 5px;
+        }
+    }
+}
+@media (min-width: 640px){
+    .my-information{
+        width: 60%;
+        display: inline-block;
+    }
+    .contact-me{
+        width: 40%;
+        display: inline-block;
+        text-align: right;
+        a{
+            transition: 0.5s all;
+            &:hover{
+                color:#00B4E5;
+            }
+        }
+    }
+    .social-network{
+        li{
+            a{
+                svg{
+                    width: 24px!important;
+                    height: 24px!important;
+                }
+                .social-element{
+                    transition: 0.5s all;
+                }
+                &:hover{
+                    .social-element{
+                        fill:#00DA9C;
+                    }
+                }
+            }
+        }
+    }
+}

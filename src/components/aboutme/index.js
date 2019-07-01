@@ -17,7 +17,7 @@ const About = () => {
                 <p>I have over 6+ years of experience using JavaScript and 3+ years using ReactJS, I have very good experience designing professional UI web applications and transactional websites.</p>
             </div>
             <div className="contact-me">
-                {/* <img src={Me}></img> */}
+                <img src={Me}></img>
                 <p>Adrián Aburto</p>
                 <p>Mexico City</p>
                 <p><a onClick={() => triggerInteraction('email')} href="mailto:adrian@jeckoxville.com">Send me an email</a></p>

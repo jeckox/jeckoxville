@@ -7,6 +7,9 @@
   color: #00B4E5;
   margin: 0; }
 
+.contact-me img {
+  width: 100px; }
+
 .my-information img {
   width: 50%; }
 
@@ -15,11 +18,13 @@
 
 .social-network {
   list-style: none; }
-  .social-network li {
-    display: inline-block;
-    margin: 5px; }
-    .social-network li:last-child {
-      margin: 0 0 0 5px; }
+
+.social-network li {
+  display: inline-block;
+  margin: 5px; }
+
+.social-network li:last-child {
+  margin: 0 0 0 5px; }
 
 @media (min-width: 640px) {
   .my-information {
@@ -29,10 +34,10 @@
     width: 40%;
     display: inline-block;
     text-align: right; }
-    .contact-me a {
-      transition: 0.5s all; }
-      .contact-me a:hover {
-        color: #00B4E5; }
+  .contact-me a {
+    transition: 0.5s all; }
+  .contact-me a:hover {
+    color: #00B4E5; }
   .social-network li a svg {
     width: 24px !important;
     height: 24px !important; }

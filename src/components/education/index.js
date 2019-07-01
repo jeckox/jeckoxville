@@ -1,10 +1,10 @@
 import React from 'react';
-import './Experience.css';
+import './Education.css';
 import ReactGA from 'react-ga';
-const Experience = () =>{
+const Education = () => {
     ReactGA.pageview(window.location.pathname + window.location.search);
     return (
-        <p>Experience</p>
+        <p>Education</p>
     );
 }
-export default Experience;
+export default Education;

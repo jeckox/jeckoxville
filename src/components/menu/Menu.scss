@@ -10,6 +10,9 @@
         display: inline-block;
         margin: 5px;
         padding: 3px;
+        &.selected{
+            color:#00DA9C;
+        }
     }
 }
 @media (min-width: 640px){

@@ -20,9 +20,8 @@
   color: #fff !important;
   border-radius: 20px;
   transition: 0.5s all; }
-
-.ui-button:hover {
-  background: #00B4E5 !important; }
+  .ui-button:hover {
+    background: #00B4E5 !important; }
 
 @keyframes App-logo-spin {
   from {
@@ -34,12 +33,10 @@
   width: 90%;
   margin: 5% auto;
   text-align: left; }
-
-.center-container h2 {
-  color: #002D5A; }
-
-.center-container p {
-  color: #828282; }
+  .center-container h2 {
+    color: #002D5A; }
+  .center-container p {
+    color: #828282; }
 
 @media (min-width: 640px) {
   .ui-button:hover {
